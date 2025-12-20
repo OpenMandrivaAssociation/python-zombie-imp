@@ -11,6 +11,7 @@ BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python%{pyver}dist(setuptools)
 #BuildRequires:  python3-testsuite
+Provides:       python%{pyver}dist(zombie-imp) = %{version}-%{release}
 BuildSystem:    python
 
 %description
