@@ -1,0 +1,23 @@
+Name:           python-zombie-imp
+Version:        0.0.3
+Release:        1
+Summary:        A copy of the `imp` module that was removed in Python 3.12
+Group:          Development/Python
+License:        Python-2.0.1
+URL:            https://github.com/encukou/zombie-imp
+Source:         https://files.pythonhosted.org/packages/source/z/zombie-imp/zombie-imp-%{version}.tar.gz
+
+BuildArch:      noarch
+BuildRequires:  pkgconfig(python)
+#BuildRequires:  python3-testsuite
+BuildSystem:    python
+
+%description
+A copy of the imp module that was removed in Python 3.12.
+This is a compat package to ease transition to Python 3.12.
+It shouldn't be used and packages using `imp` module
+should use `importlib.metadata` instead.
+
+
+%files
+%doc README.*
