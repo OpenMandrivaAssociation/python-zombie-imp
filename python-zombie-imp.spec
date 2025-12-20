@@ -22,3 +22,7 @@ should use `importlib.metadata` instead.
 
 %files
 %doc README.*
+%{python_sitelib}/__pycache__/imp.cpython-*.pyc
+%{python_sitelib}/imp.py
+%{python_sitelib}/zombie_imp-%{version}.dist-info
+%{python_sitelib}/zombie_imp/
