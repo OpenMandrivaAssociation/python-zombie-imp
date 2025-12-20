@@ -5,10 +5,11 @@ Summary:        A copy of the `imp` module that was removed in Python 3.12
 Group:          Development/Python
 License:        Python-2.0.1
 URL:            https://github.com/encukou/zombie-imp
-Source:         https://files.pythonhosted.org/packages/source/z/zombie_imp/zombie_imp-%{version}.tar.gz
+Source0:         https://files.pythonhosted.org/packages/source/z/zombie_imp/zombie_imp-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
+BuildRequires:  python%{pyver}dist(setuptools)
 #BuildRequires:  python3-testsuite
 BuildSystem:    python
 
