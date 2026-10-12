@@ -1,6 +1,6 @@
 Name:           python-zombie-imp
 Version:        0.0.4
-Release:        1
+Release:        2
 Summary:        A copy of the `imp` module that was removed in Python 3.12
 Group:          Development/Python
 License:        Python-2.0.1
